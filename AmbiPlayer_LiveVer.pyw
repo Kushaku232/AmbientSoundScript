@@ -1,13 +1,12 @@
-
 import time
 from pycaw.pycaw import AudioUtilities
 import soundfile as sf
-import sounddevice as sd
+#import sounddevice as sd
 import os
 import keyboard
 import random as rd
-import re
-import multiprocessing as  mp
+import re 
+#import multiprocessing as  mp
 from pygame import mixer
 import logging
 logging.basicConfig(filename=os.getcwd()+'\\AmbiCrash.log', level=logging.ERROR, 
